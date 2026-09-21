@@ -60,9 +60,9 @@ Redirecionamento conforme a classificação do lead
 
 *Visão resumida da jornada: o visitante faz suas escolhas, recebe um perfil e as respostas se transformam em sinais para a leitura da audiência e dos próximos lançamentos.*
 
-### Questionário via WhatsApp
+### Questionário em formato WhatsApp no FunilPro
 
-A jornada continua pelo WhatsApp, onde as respostas ajudam a identificar preferências e sinais de intenção do visitante.
+A jornada continua em um simulador de conversa em formato WhatsApp configurado no FunilPro, onde as respostas ajudam a identificar preferências e sinais de intenção do visitante.
 
 <img width="582" height="862" alt="Etapa do questionário de perfil via WhatsApp" src="https://github.com/user-attachments/assets/2b75cb10-8249-4c2c-9502-3f9e2108c150" />
 
@@ -104,16 +104,15 @@ Os contatos captados são organizados no Lead Hub, onde podem ser visualizados, 
 
 ## 📊 Inteligência para produto
 
-O objetivo não é apenas recomendar uma peça.
+O objetivo do fluxo não é apenas recomendar um perfil.
 
-Os resultados do questionário podem ser analisados de forma agregada para identificar quais perfis aparecem com maior frequência e quais concentram maior intenção de compra.
+Durante a jornada no FunilPro, o visitante responde perguntas sobre estilo, tamanho, preferência de cor, direção visual da peça, faixa de preço e intenção em relação ao próximo lançamento.
 
-Esses dados podem apoiar decisões como:
+Esses sinais foram pensados para ajudar a marca a entender melhor sua audiência e apoiar decisões futuras sobre produto, posicionamento e próximos drops.
 
-- qual estilo explorar em um próximo drop;
-- quais perfis merecem maior atenção;
-- quais características aparecem com maior frequência na audiência;
-- quais segmentos demonstram maior potencial comercial.
+Na versão atual, o **Lead Hub não armazena todo o histórico dessas respostas**. Ele recebe a classificação final de intenção do visitante e registra os dados de contato, consentimento e data de entrada.
+
+A leitura completa das preferências acontece no fluxo configurado no FunilPro, enquanto o Lead Hub funciona como a camada de captação, organização e qualificação comercial.
 
 ## 🧲 Lead Hub
 
@@ -133,7 +132,7 @@ A classificação é **baseada em regras definidas a partir das respostas do flu
 - Questionário de perfil
 - Segmentação de audiência
 - Recomendação baseada no perfil
-- Jornada integrada ao WhatsApp
+- Fluxo conversacional em formato WhatsApp
 - Captação de leads
 - Qualificação de leads
 - Classificação por intenção
@@ -153,6 +152,7 @@ A classificação é **baseada em regras definidas a partir das respostas do flu
 - Persistência de dados
 - Automação de processos
 - IA generativa como apoio ao desenvolvimento, testes e resolução de problemas
+- FunilPro — configuração da landing page e do fluxo conversacional
 
 ## 🧠 Visão de negócio
 
@@ -166,4 +166,6 @@ A proposta é transformar uma interação com o visitante em informação útil 
 
 Projeto em desenvolvimento e testes.
 
-O código-fonte será preparado para publicação após revisão de segurança e sanitização de credenciais, configurações e dados de demonstração.
+Este repositório contém uma versão pública sanitizada do Lead Hub, sem credenciais reais, dados pessoais ou arquivos de sessão.
+
+A lógica do funil configurado no FunilPro está documentada em [`docs/FUNIL.md`](docs/FUNIL.md). Detalhes sobre a versão pública e configuração local estão disponíveis em [`docs/PUBLIC_VERSION.md`](docs/PUBLIC_VERSION.md) e [`docs/SETUP.md`](docs/SETUP.md).
