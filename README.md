@@ -44,7 +44,7 @@ Com o acúmulo dessas respostas, os padrões encontrados podem apoiar decisões 
 
 Página de entrada  
 ↓  
-Questionário via WhatsApp  
+Questionário em formato WhatsApp no FunilPro 
 ↓  
 Identificação e segmentação do perfil  
 ↓  
@@ -64,7 +64,7 @@ Redirecionamento conforme a classificação do lead
 
 A jornada continua em um simulador de conversa em formato WhatsApp configurado no FunilPro, onde as respostas ajudam a identificar preferências e sinais de intenção do visitante.
 
-<img width="582" height="862" alt="Etapa do questionário de perfil via WhatsApp" src="https://github.com/user-attachments/assets/2b75cb10-8249-4c2c-9502-3f9e2108c150" />
+<img width="582" height="862" alt="Etapa do questionário de perfil em formato WhatsApp no FunilPro" src="https://github.com/user-attachments/assets/2b75cb10-8249-4c2c-9502-3f9e2108c150" />
 
 *Exemplo de uma das etapas do questionário utilizado para identificar o perfil do visitante.*
 
