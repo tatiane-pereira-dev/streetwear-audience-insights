@@ -1,0 +1,12 @@
+# Dados e segredos locais
+/data/db.json
+.env
+.env.*
+!.env.example
+
+# Sessões, logs e temporários
+/sessions/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
